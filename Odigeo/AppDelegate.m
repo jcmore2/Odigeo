@@ -10,10 +10,9 @@
 #import "FCPCoreDataStore.h"
 #import "WSManager.h"
 #import "FCPCoreDataImporter.h"
+#import "HomeViewController.h"
 
-#import "TicketsTableViewController.h"
 
-#import "FlightsTableViewController.h"
 @interface AppDelegate ()
 
 @property (nonatomic, strong) WSManager *webServicesManager;
@@ -31,12 +30,10 @@
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
 
+
+    HomeViewController *homeViewController =[[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
     
-    TicketsTableViewController *ticketsList =[[TicketsTableViewController alloc] initWithNibName:@"TicketsTableViewController" bundle:nil];
-    
-    [ticketsList setManagedObjectContext:[FCPCoreDataStore mainQueueContext]];
-    
-    [navigationController pushViewController:ticketsList animated:NO];
+    [navigationController pushViewController:homeViewController animated:NO];
     return YES;
 }
 

@@ -25,10 +25,17 @@
 		0C10E5F11A29223E00170867 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C10E5EF1A29223E00170867 /* OCMockitoIOS.framework */; };
 		0C10E5F91A29C74600170867 /* XCTestCase+FCPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C10E5F81A29C74600170867 /* XCTestCase+FCPHelper.m */; };
 		0C10E5FB1A29E25C00170867 /* ModelsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C10E5FA1A29E25C00170867 /* ModelsTest.m */; };
-		0C3CD2241A2A714700D334EA /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CD2231A2A714700D334EA /* Ticket.m */; };
-		0C3CD2251A2A714700D334EA /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CD2231A2A714700D334EA /* Ticket.m */; };
-		0C3CD2291A2A7B0900D334EA /* UIImageView+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CD2281A2A7B0900D334EA /* UIImageView+ImageEffects.m */; };
-		0C3CD2311A2A82F600D334EA /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CD2301A2A82F600D334EA /* new.png */; };
+		0C3CD2311A2A82F600D334EA /* backImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CD2301A2A82F600D334EA /* backImage.png */; };
+		0C3CD2341A2A889500D334EA /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CD2331A2A889500D334EA /* Ticket.m */; };
+		0C3CD2381A2A88CB00D334EA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CD2361A2A88CB00D334EA /* HomeViewController.m */; };
+		0C3CD2391A2A88CB00D334EA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CD2361A2A88CB00D334EA /* HomeViewController.m */; };
+		0C3CD23A1A2A88CB00D334EA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CD2371A2A88CB00D334EA /* HomeViewController.xib */; };
+		0C3CD23B1A2A88CB00D334EA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CD2371A2A88CB00D334EA /* HomeViewController.xib */; };
+		0C3CD23F1A2A8D0700D334EA /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CD23E1A2A8D0700D334EA /* UIImage+ImageEffects.m */; };
+		0C3CD2411A2A93F300D334EA /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CD2401A2A93F300D334EA /* gray.png */; };
+		0C3CD2431A2A940900D334EA /* flight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CD2421A2A940900D334EA /* flight.png */; };
+		0C3CD2451A2A942400D334EA /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CD2441A2A942400D334EA /* plane.png */; };
+		0C3CD2471A2A942D00D334EA /* whitePlane.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CD2461A2A942D00D334EA /* whitePlane.png */; };
 		0C627A1C1A2A14F00089BB2C /* TicketsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627A1A1A2A14F00089BB2C /* TicketsTableViewController.m */; };
 		0C627A1D1A2A14F00089BB2C /* TicketsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627A1A1A2A14F00089BB2C /* TicketsTableViewController.m */; };
 		0C627A1E1A2A14F00089BB2C /* TicketsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C627A1B1A2A14F00089BB2C /* TicketsTableViewController.xib */; };
@@ -87,11 +94,18 @@
 		0C10E5F71A29C74600170867 /* XCTestCase+FCPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+FCPHelper.h"; sourceTree = "<group>"; };
 		0C10E5F81A29C74600170867 /* XCTestCase+FCPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+FCPHelper.m"; sourceTree = "<group>"; };
 		0C10E5FA1A29E25C00170867 /* ModelsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelsTest.m; sourceTree = "<group>"; };
-		0C3CD2221A2A714700D334EA /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ticket.h; path = ../Ticket.h; sourceTree = "<group>"; };
-		0C3CD2231A2A714700D334EA /* Ticket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ticket.m; path = ../Ticket.m; sourceTree = "<group>"; };
-		0C3CD2271A2A7B0900D334EA /* UIImageView+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageEffects.h"; sourceTree = "<group>"; };
-		0C3CD2281A2A7B0900D334EA /* UIImageView+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageEffects.m"; sourceTree = "<group>"; };
-		0C3CD2301A2A82F600D334EA /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		0C3CD2301A2A82F600D334EA /* backImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImage.png; sourceTree = "<group>"; };
+		0C3CD2321A2A889500D334EA /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ticket.h; path = Model/Ticket.h; sourceTree = "<group>"; };
+		0C3CD2331A2A889500D334EA /* Ticket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ticket.m; path = Model/Ticket.m; sourceTree = "<group>"; };
+		0C3CD2351A2A88CB00D334EA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
+		0C3CD2361A2A88CB00D334EA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ViewControllers/HomeViewController.m; sourceTree = "<group>"; };
+		0C3CD2371A2A88CB00D334EA /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ViewControllers/HomeViewController.xib; sourceTree = "<group>"; };
+		0C3CD23D1A2A8D0700D334EA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		0C3CD23E1A2A8D0700D334EA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		0C3CD2401A2A93F300D334EA /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		0C3CD2421A2A940900D334EA /* flight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flight.png; sourceTree = "<group>"; };
+		0C3CD2441A2A942400D334EA /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		0C3CD2461A2A942D00D334EA /* whitePlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitePlane.png; sourceTree = "<group>"; };
 		0C627A191A2A14F00089BB2C /* TicketsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketsTableViewController.h; path = ViewControllers/TicketsTableViewController.h; sourceTree = "<group>"; };
 		0C627A1A1A2A14F00089BB2C /* TicketsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketsTableViewController.m; path = ViewControllers/TicketsTableViewController.m; sourceTree = "<group>"; };
 		0C627A1B1A2A14F00089BB2C /* TicketsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TicketsTableViewController.xib; path = ViewControllers/TicketsTableViewController.xib; sourceTree = "<group>"; };
@@ -211,21 +225,25 @@
 			name = testCategory;
 			sourceTree = "<group>";
 		};
-		0C3CD2261A2A7ADF00D334EA /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0C3CD2271A2A7B0900D334EA /* UIImageView+ImageEffects.h */,
-				0C3CD2281A2A7B0900D334EA /* UIImageView+ImageEffects.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		0C3CD22F1A2A82F600D334EA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0C3CD2301A2A82F600D334EA /* new.png */,
+				0C3CD2461A2A942D00D334EA /* whitePlane.png */,
+				0C3CD2421A2A940900D334EA /* flight.png */,
+				0C3CD2441A2A942400D334EA /* plane.png */,
+				0C3CD2401A2A93F300D334EA /* gray.png */,
+				0C3CD2301A2A82F600D334EA /* backImage.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C3CD23C1A2A8D0700D334EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C3CD23D1A2A8D0700D334EA /* UIImage+ImageEffects.h */,
+				0C3CD23E1A2A8D0700D334EA /* UIImage+ImageEffects.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		0C6E865A1A27D64D00F392A4 = {
@@ -249,8 +267,8 @@
 		0C6E86651A27D64D00F392A4 /* Odigeo */ = {
 			isa = PBXGroup;
 			children = (
+				0C3CD23C1A2A8D0700D334EA /* View */,
 				0C3CD22F1A2A82F600D334EA /* Resources */,
-				0C3CD2261A2A7ADF00D334EA /* View */,
 				0C10E5D81A29121900170867 /* Utils */,
 				0C10E5C51A290A9200170867 /* CoreDataStore */,
 				0C6E86A41A27E7A700F392A4 /* ViewControllers */,
@@ -301,8 +319,8 @@
 		0C6E86A21A27E75900F392A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0C3CD2221A2A714700D334EA /* Ticket.h */,
-				0C3CD2231A2A714700D334EA /* Ticket.m */,
+				0C3CD2321A2A889500D334EA /* Ticket.h */,
+				0C3CD2331A2A889500D334EA /* Ticket.m */,
 				0C6E86EA1A27F28200F392A4 /* OutBoundFlight.h */,
 				0C6E86EB1A27F28200F392A4 /* OutBoundFlight.m */,
 				0C6E86E61A27F28200F392A4 /* InBoundFlight.h */,
@@ -329,6 +347,9 @@
 				0C627A1A1A2A14F00089BB2C /* TicketsTableViewController.m */,
 				0C627A1B1A2A14F00089BB2C /* TicketsTableViewController.xib */,
 				0C98C0AC1A2A396400A90535 /* Cell.xib */,
+				0C3CD2351A2A88CB00D334EA /* HomeViewController.h */,
+				0C3CD2361A2A88CB00D334EA /* HomeViewController.m */,
+				0C3CD2371A2A88CB00D334EA /* HomeViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -415,10 +436,15 @@
 			files = (
 				0C627A1E1A2A14F00089BB2C /* TicketsTableViewController.xib in Resources */,
 				0C6E867A1A27D64D00F392A4 /* LaunchScreen.xib in Resources */,
+				0C3CD2411A2A93F300D334EA /* gray.png in Resources */,
+				0C3CD2431A2A940900D334EA /* flight.png in Resources */,
+				0C3CD23A1A2A88CB00D334EA /* HomeViewController.xib in Resources */,
 				0C98C0AD1A2A396400A90535 /* Cell.xib in Resources */,
-				0C3CD2311A2A82F600D334EA /* new.png in Resources */,
+				0C3CD2311A2A82F600D334EA /* backImage.png in Resources */,
 				0C10E5EA1A2920F400170867 /* tickets.json in Resources */,
+				0C3CD2451A2A942400D334EA /* plane.png in Resources */,
 				0C6E86771A27D64D00F392A4 /* Images.xcassets in Resources */,
+				0C3CD2471A2A942D00D334EA /* whitePlane.png in Resources */,
 				0C6E86901A27D6BD00F392A4 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C627A1F1A2A14F00089BB2C /* TicketsTableViewController.xib in Resources */,
+				0C3CD23B1A2A88CB00D334EA /* HomeViewController.xib in Resources */,
 				0C10E5EB1A2920F400170867 /* tickets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,12 +468,13 @@
 			files = (
 				0C6E86AF1A27E98200F392A4 /* WSManager.m in Sources */,
 				0C10E5D41A290A9300170867 /* NSManagedObject+TBAdditions.m in Sources */,
-				0C3CD2291A2A7B0900D334EA /* UIImageView+ImageEffects.m in Sources */,
+				0C3CD23F1A2A8D0700D334EA /* UIImage+ImageEffects.m in Sources */,
 				0C627A1C1A2A14F00089BB2C /* TicketsTableViewController.m in Sources */,
 				0C10E5D71A290A9300170867 /* Odigeo.xcdatamodeld in Sources */,
+				0C3CD2341A2A889500D334EA /* Ticket.m in Sources */,
 				0C6E86EC1A27F28200F392A4 /* OutBoundFlight.m in Sources */,
-				0C3CD2241A2A714700D334EA /* Ticket.m in Sources */,
 				0C10E5DD1A29121900170867 /* ExtendedLog.m in Sources */,
+				0C3CD2381A2A88CB00D334EA /* HomeViewController.m in Sources */,
 				0C10E5E11A29149C00170867 /* Constants.m in Sources */,
 				0C627A221A2A15040089BB2C /* FetchedResultsControllerDataSource.m in Sources */,
 				0C10E5D51A290A9300170867 /* NSManagedObjectContext+TBAdditions.m in Sources */,
@@ -470,12 +498,12 @@
 				0C10E5F91A29C74600170867 /* XCTestCase+FCPHelper.m in Sources */,
 				0C6E86B01A27E98200F392A4 /* WSManager.m in Sources */,
 				0C10E5FB1A29E25C00170867 /* ModelsTest.m in Sources */,
+				0C3CD2391A2A88CB00D334EA /* HomeViewController.m in Sources */,
 				0C6E86E91A27F28200F392A4 /* InBoundFlight.m in Sources */,
 				0C6E86ED1A27F28200F392A4 /* OutBoundFlight.m in Sources */,
 				0C10E5E21A29149C00170867 /* Constants.m in Sources */,
 				0C10E5ED1A29215500170867 /* WSManagerTest.m in Sources */,
 				0C627A231A2A15040089BB2C /* FetchedResultsControllerDataSource.m in Sources */,
-				0C3CD2251A2A714700D334EA /* Ticket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
